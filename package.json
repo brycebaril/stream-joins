@@ -1,0 +1,42 @@
+{
+  "name": "stream-joins",
+  "version": "0.0.0",
+  "description": "Join operations for ordered object-mode streams (e.g. timeseries data). Various types of join operations that join two timeseries streams into a single stream.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/stream-joins.git"
+  },
+  "keywords": [
+    "timestream",
+    "stream",
+    "tsdb",
+    "joins",
+    "union",
+    "diff",
+    "complement",
+    "intersect",
+    "timeseries"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/stream-joins/issues"
+  },
+  "dependencies": {
+    "through2": "~0.2.1",
+    "xtend": "~2.1.1",
+    "sosj": "~0.1.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "concat-stream": "~1.0.1",
+    "timestream-gen": "~0.1.0"
+  }
+}

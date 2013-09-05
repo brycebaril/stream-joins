@@ -1,0 +1,6 @@
+module.exports.complement = require("./complement")
+module.exports.diff = require("./diff")
+module.exports.intersect = require("./intersect")
+module.exports.join = require("./join")
+module.exports.union = require("./union")
+module.exports.where = require("./where")
