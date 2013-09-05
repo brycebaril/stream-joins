@@ -3,7 +3,7 @@ stream-joins
 
 [![NPM](https://nodei.co/npm/stream-joins.png)](https://nodei.co/npm/stream-joins/)
 
-Join operations for ordered object-mode streams (e.g. timeseries data). Various types of join operations that join two timeseries streams into a single stream.
+Join operations for ordered objectMode streams (e.g. timeseries data). Various types of join operations that join two timeseries streams into a single stream.
 
 ```javascript
 // timestream-gen generates timeseries data ordered by a sequence key "_t"
@@ -150,7 +150,7 @@ function odds(left, right) {
   }
 }
 
-where(odds, left, right)
+where(key, odds, left, right)
   .pipe(concat(collect))
 ```
 
