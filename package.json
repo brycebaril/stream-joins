@@ -1,6 +1,6 @@
 {
   "name": "stream-joins",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Join operations for ordered object-mode streams (e.g. timeseries data). Various types of join operations that join two timeseries streams into a single stream.",
   "main": "index.js",
   "directories": {
