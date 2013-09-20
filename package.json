@@ -30,9 +30,9 @@
     "url": "https://github.com/brycebaril/stream-joins/issues"
   },
   "dependencies": {
-    "through2": "~0.2.1",
-    "xtend": "~2.1.1",
-    "sosj": "~0.1.0"
+    "through2": "~0.2.2",
+    "sosj": "~0.1.2",
+    "xtend": "~2.1.1"
   },
   "devDependencies": {
     "tape": "~1.0.4",
