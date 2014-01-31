@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "through2": "~0.4.1",
-    "sosj": "~0.2.1",
+    "sosj": "~0.2.2",
     "xtend": "~2.1.2"
   },
   "devDependencies": {
